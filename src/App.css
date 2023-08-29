@@ -26,3 +26,16 @@ a:hover {
   padding: 2em 5em;
   margin: 1em 1em;
 }
+
+.tasks-container{
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  flex-direction: column;
+  max-height: 400px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  background-color: #eaeaea6f;
+}

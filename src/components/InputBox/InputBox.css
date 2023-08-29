@@ -1,0 +1,29 @@
+.input-container {
+    margin-top: 2em;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+.input-box {
+    width: 500px;
+    padding: 1em 2em;
+    border-color: var(--primary-light);
+    border-style: solid;
+}
+
+.input-box:focus {
+    outline-color: var(--primary-light);
+}
+
+.add-btn {
+    padding: 1em 2em;
+    border-radius: 5px;
+    background-color: var(--primary-light);
+    border-color: rgb(250, 118, 250);
+    border-style: solid;
+}
+
+.add-btn:hover {
+    background-color: var(--warning);
+}
