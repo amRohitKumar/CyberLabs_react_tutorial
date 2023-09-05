@@ -1,8 +1,19 @@
-.card-box{
+.card-box {
     /* border: 1px solid green; */
     width: 650px;
     padding: 1em 2em;
+    margin-top: 2.5em;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    margin-top: 2em;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+    .remove-btn {
+        cursor: pointer;
+    }
+}
+
+
+.card-box:last-child {
+    margin-bottom: 2em;
 }
